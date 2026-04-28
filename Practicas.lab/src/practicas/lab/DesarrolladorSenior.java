@@ -54,13 +54,13 @@ public class DesarrolladorSenior extends Desarrollador implements Evaluador, Cap
     
     @Override
     public void evaluar(String nombreEmpleado) {
-        System.out.println(getNombre() + " realiza revisión técnica de código de: " +
+        System.out.println(getNombre() + " realiza revisión técnica de codigo de: " +
                            nombreEmpleado + " (" + aniosExperiencia + " años de experiencia aplicados)");
     }
 
     @Override
     public void capacitar(String tema) {
-        System.out.println(getNombre() + " dicta sesión avanzada de \"" + tema +
+        System.out.println(getNombre() + " dicta sesion avanzada de \"" + tema +
                            "\" -- especialización: " + especializacion);
     }
 
@@ -68,8 +68,8 @@ public class DesarrolladorSenior extends Desarrollador implements Evaluador, Cap
     public String toString() {
         return super.toString() +
                " | Experiencia: " + aniosExperiencia + " años" +
-               " | Lideró: "      + proyectosLiderados + " proyectos" +
+               " | Lidero: "      + proyectosLiderados + " proyectos" +
                " | Esp.: "        + especializacion +
-               " | Mentoría: "    + (capacidadMentoria ? "Sí" : "No");
+               " | Mentoria: "    + (capacidadMentoria ? "Sí" : "No");
     }
 }

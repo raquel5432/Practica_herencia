@@ -50,7 +50,7 @@ public class Gerente extends Empleado implements Evaluador, Capacitador {
 
     @Override
     public void evaluar(String nombreEmpleado) {
-        System.out.println(getNombre() + " evalúa el desempeño de: " + nombreEmpleado +
+        System.out.println(getNombre() + " evalua el desempeño de: " + nombreEmpleado +
                            " (Depto: " + departamento + ")");
     }
 

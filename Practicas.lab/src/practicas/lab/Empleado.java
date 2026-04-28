@@ -44,14 +44,14 @@ public class Empleado extends Persona {
     public void   setArea(String area) { this.area = area; }
 
     public void trabajar() {
-        System.out.println(getNombre() + " [Empleado] está trabajando en el área de " + area + ".");
+        System.out.println(getNombre() + " [Empleado] está trabajando en el area de " + area + ".");
     }
     
     @Override
     public String toString() {
         return super.toString() +
                " | ID: "       + idEmpleado +
-               " | Área: "     + area +
+               " | Area: "     + area +
                " | Salario: L." + String.format("%.2f", salario) +
                " | Contrato: " + tipoContrato;
     }

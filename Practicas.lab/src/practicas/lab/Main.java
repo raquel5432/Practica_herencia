@@ -29,12 +29,12 @@ public class Main {
 
         Gerente gerente1 = new Gerente(
             "Carlos Mena", 45, "0101-1978-11111", "Res. Las Lomas, San Pedro Sula", "7777-3333",
-            95000, "EMP-003", "2018-01-10", "Tiempo completo", "Dirección",
-            "Tecnología e Innovación", 15, 2500000.0, "Semanal"
+            95000, "EMP-003", "2018-01-10", "Tiempo completo", "Direccion",
+            "Tecnologia e Innovacion", 15, 2500000.0, "Semanal"
         );
 
         Gerente gerente2 = new Gerente(
-            "María Ramos", 38, "0801-1985-22222", "Col. Rubén Darío, Tegucigalpa", "6666-4444",
+            "Maria Ramos", 38, "0801-1985-22222", "Col. Ruben Darío, Tegucigalpa", "6666-4444",
             87000, "EMP-004", "2020-05-20", "Tiempo completo", "Producto",
             "Desarrollo de Producto", 8, 1200000.0, "Quincenal"
         );
@@ -85,7 +85,7 @@ public class Main {
 
         for (Empleado e : plantilla) {
             if (e instanceof Capacitador capacitador) {
-                capacitador.capacitar("Buenas prácticas de desarrollo seguro");
+                capacitador.capacitar("Buenas practicas de desarrollo seguro");
             }
         }
 
